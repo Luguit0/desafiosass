@@ -3,7 +3,6 @@ $color2: gold;
 $color3: rgb(75, 75, 221);
 $color4: red;
 $color5: lightblue;
-$color6: #ffc;
 
 body {
     background-color: $color5;
@@ -43,8 +42,9 @@ body {
         text-decoration: underline;
     }
 }
-@mixin caja_personalizada ($fondo:#fff) {
-    background-color: $fondo;
+@mixin caja_personalizada ($color,$fontsize) {
+    font-size: $fontsize;
+    background-color: $color;
     border: 4px solid black;
     box-shadow: 0px 0px 2px $color2;
     color: $color4;
@@ -52,11 +52,10 @@ body {
     padding: 10px;
 }
 .caja{
-    @include caja_personalizada($color1);
+    
+    @include caja_personalizada(blue, 40px);
 }
 .caja-dos{
-    @include caja_personalizada($color3);
-}
-.caja, .caja-dos{
-    width: 400px + 100px;
+    
+    @include caja_personalizada(yellow,20px);
 }
