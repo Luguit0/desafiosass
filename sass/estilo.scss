@@ -1,0 +1,42 @@
+$color1: gray;
+$color2: gold;
+$color3: rgb(75, 75, 221);
+$color4: red;
+$color5: lightblue;
+
+body {
+    background-color: $color5;
+}
+
+.contenedor-data {
+    h5 {
+        color: $color2;
+        background-color: $color1;
+
+    }
+
+    table {
+        background-color: $color1;
+
+    }
+
+    th {
+        color: $color3;
+    }
+
+    tr {
+        color: $color4;
+    }
+}
+
+.contenedor-main {
+    background-color: $color1;
+
+    h3 {
+        color: $color4;
+    }
+
+    p {
+        color: $color3;
+    }
+}

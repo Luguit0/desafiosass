@@ -1,0 +1,27 @@
+body {
+  background-color: lightblue;
+}
+
+.contenedor-data h5 {
+  color: gold;
+  background-color: gray;
+}
+.contenedor-data table {
+  background-color: gray;
+}
+.contenedor-data th {
+  color: rgb(75, 75, 221);
+}
+.contenedor-data tr {
+  color: red;
+}
+
+.contenedor-main {
+  background-color: gray;
+}
+.contenedor-main h3 {
+  color: red;
+}
+.contenedor-main p {
+  color: rgb(75, 75, 221);
+}/*# sourceMappingURL=estilo.css.map */

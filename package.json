@@ -1,0 +1,23 @@
+{
+  "name": "entrega-github",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luguit0/casademonedasLUGOCLAUDIO.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luguit0/casademonedasLUGOCLAUDIO/issues"
+  },
+  "homepage": "https://github.com/Luguit0/casademonedasLUGOCLAUDIO#readme",
+  "dependencies": {
+    "sass": "^1.54.7"
+  }
+}
