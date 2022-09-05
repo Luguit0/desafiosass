@@ -6,15 +6,12 @@ body {
   color: gold;
   background-color: gray;
 }
-
 .contenedor-data table {
   background-color: gray;
 }
-
 .contenedor-data th {
   color: rgb(75, 75, 221);
 }
-
 .contenedor-data tr {
   color: red;
 }
@@ -22,11 +19,9 @@ body {
 .contenedor-main {
   background-color: gray;
 }
-
 .contenedor-main h3 {
   color: red;
 }
-
 .contenedor-main p {
   color: rgb(75, 75, 221);
 }
@@ -35,7 +30,6 @@ body {
   color: black;
   font-family: Arial;
 }
-
 .caja p {
   color: red;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -60,6 +54,4 @@ body {
   color: red;
   margin: 20px;
   padding: 10px;
-}
-
-/*# sourceMappingURL=estilo.css.map */
+}/*# sourceMappingURL=estilo.css.map */
