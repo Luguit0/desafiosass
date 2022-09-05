@@ -3,6 +3,7 @@ $color2: gold;
 $color3: rgb(75, 75, 221);
 $color4: red;
 $color5: lightblue;
+$color6: #ffc;
 
 body {
     background-color: $color5;
@@ -57,7 +58,7 @@ body {
     box-shadow: 0px 0px 2px $color2;
     color: $color4;
     margin: 20px;
-    
+    padding: 10px;
 }
 .caja{
     @include caja_personalizada($color1);
